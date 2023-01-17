@@ -8,11 +8,6 @@
     --color04: #EFEFEF;
 }
 
-header {
-    min-width: min-content;
-    max-width: max-content;
-}
-
 body {
     background: var(--color02);
     font-family: 16px 'Arimo', sans-serif;
@@ -51,7 +46,13 @@ a {
 
 #conteudo-texto {
     /* border: 2px solid red; */
-    width: 500px;
+    width: 600px;
+}
+
+#foto05 {
+    /* border: 2px solid red; */
+    width: 300px;
+    margin: -290px 10px 10px 590px;
 }
 
 #conteudo > #conteudo-texto > p > a {
@@ -74,8 +75,15 @@ h2 {
     margin-left: 10px;
 }
 
+h3 {
+    /* border: 2px solid red; */
+    color: #D69D12;
+    margin: 180px;
+    font-size: 1.5em;
+}
+
 p {
-    text-align: justify;
+    text-align: left;
 }
 
 #conteudo > div >img {
@@ -84,17 +92,11 @@ p {
     padding-right: 0px;
 }
 
-#foto05 {
-    /* border: 2px solid red; */
-    width: 300px;
-    margin: -290px 10px 10px 550px;
-    
-}
-
 #foto-catabenise01 {
     /* border: 2px solid red; */
     width: 700px;
     margin-left: -100px;
+    padding-top: 20px;
 }
 
 #conteudo-contabenise {
@@ -104,12 +106,14 @@ p {
 }
 
 #insta02 {
+    /* border: 2px solid red; */
     width: 90%;
     border-radius: 50px;
+    margin-top: -170px;
 }
 
 #final {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /* span, a {
