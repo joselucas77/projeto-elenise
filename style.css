@@ -44,8 +44,13 @@ a {
     padding: 10px;
 }
 
-#conteudo > p > a {
-    color: black;
+#conteudo-texto {
+    /* border: 2px solid red; */
+    width: 500px;
+}
+
+#conteudo > #conteudo-texto > p > a {
+    color: var(--color02);
 }
 
 .centralizar {
@@ -57,6 +62,13 @@ h1 {
     text-align: left;
 }
 
+h2 {
+    padding-top: 40px;
+    font-size: 1.3em;
+    text-align: left;
+    margin-left: 10px;
+}
+
 p {
     text-align: justify;
 }
@@ -65,6 +77,34 @@ p {
     width: 70%;
     position: relative;
     padding-right: 0px;
+}
+
+#foto05 {
+    /* border: 2px solid red; */
+    width: 300px;
+    margin: -290px 10px 10px 550px;
+    
+}
+
+#foto-catabenise01 {
+    /* border: 2px solid red; */
+    width: 700px;
+    margin-left: -100px;
+}
+
+#conteudo-contabenise {
+    /* border: 2px solid red; */
+    width: 300px;
+    margin: -330px 10px 10px 520px;
+}
+
+#insta02 {
+    width: 90%;
+    border-radius: 50px;
+}
+
+#final {
+    padding-top: 20px;
 }
 
 /* span, a {
