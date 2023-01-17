@@ -8,6 +8,11 @@
     --color04: #EFEFEF;
 }
 
+header {
+    min-width: min-content;
+    max-width: max-content;
+}
+
 body {
     background: var(--color02);
     font-family: 16px 'Arimo', sans-serif;
